@@ -100,7 +100,7 @@ if __name__ == "__main__":
     battery = get_battery()
     logging.info(f"Battery level obtained: {battery}")
     toaster = ToastNotifier()
-    toaster.show_toast("Mamba Wireless Battery",
+    toaster.show_toast("Viper V2 Pro Battery",
                        f"{battery}% Battery Left",
-                       icon_path="mamba_wireless.ico",
+                       icon_path="viper_v2_pro.ico",
                        duration=10)
